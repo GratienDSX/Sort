@@ -65,6 +65,8 @@ def keep_start_finish(source,dest):
             ratio = float(j)/i*100
             print ratio, "% total percentage kept"
 
+
+# counts the couples
 def count_couples(source,dest):
     with open(source, 'r') as csvfile:
         print("opened source file")
